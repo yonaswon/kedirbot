@@ -11,7 +11,7 @@ import json
 
 BOT_TOKEN = "7340883003:AAE2JliEsu9aLYeGtrNQc42z_P_zxe8ObWo"
 
-CHANNEL_ID = "@zion_ma"
+CHANNEL_ID = "@kiyaShiffon"
 
 LOGO_PATH = "logo.png"
 
