@@ -16,7 +16,7 @@ CHANNEL_ID = "@kiyaShiffon"
 LOGO_PATH = "logo.png"
 
 
-ALLOWED_USERS  = [5301464167,1087968824 ]
+ALLOWED_USERS  = [5301464167,1087968824,1267822460]
 
 # Create directories for temporary files
 os.makedirs("temp", exist_ok=True)
