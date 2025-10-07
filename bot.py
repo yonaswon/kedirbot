@@ -42,8 +42,8 @@ def add_logo(photo_path, output_path):
         # Calculate position for bottom-right corner with padding
         padding = 23  # Padding from bottom and right edges
         position = (
-            base_image.width - logo_width - padding,  # x-coordinate: right edge minus logo width minus padding
-            base_image.height - logo_height - padding  # y-coordinate: bottom edge minus logo height minus padding
+             padding,  # x-coordinate: right edge minus logo width minus padding
+            padding  # y-coordinate: bottom edge minus logo height minus padding
         )
 
         # Paste logo at calculated position
