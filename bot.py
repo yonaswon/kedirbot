@@ -26,9 +26,13 @@ def add_logo(photo_path, output_path):
     """Add logo to a single image in the bottom-right corner"""
     try:
         base_image = Image.open(photo_path)
-        logo = Image.open(LOGO_PATH)
+        # logo = Image.open(LOGO_PATH)
 
-        # Resize logo
+        # # Resize logo
+        # logo_width = int(base_image.width * 0.5)
+        # logo_height = int(logo.height * (logo_width / logo.width))
+        # logo = logo.resize((logo_width, logo_height), Image.LANCZOS)
+        #  # Resize logo
         logo_width = int(base_image.width * 0.5)
         logo_height = int(logo.height * (logo_width / logo.width))
         logo = logo.resize((logo_width, logo_height), Image.LANCZOS)
